@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The research legacy of Dr. James R. Blackburn and his 1970 dissertation on therapist self-disclosure that helped shift the field of psychology.">
+    <meta name="keywords" content="James R. Blackburn, therapist self-disclosure, humanistic psychology, Carl Rogers, psychology history">
+    <meta name="author" content="Research compiled January 2026">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jrblegacy.fluharty.link/">
+    <meta property="og:title" content="The Research Legacy of Dr. James R. Blackburn">
+    <meta property="og:description" content="How a 1970 dissertation helped change the practice of psychotherapy.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jrblegacy.fluharty.link/">
+    <meta property="twitter:title" content="The Research Legacy of Dr. James R. Blackburn">
+    <meta property="twitter:description" content="How a 1970 dissertation helped change the practice of psychotherapy.">
+    
+    <title>The Research Legacy of Dr. James R. Blackburn</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Libre+Franklin:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --color-bg: #FAF8F5;
+            --color-bg-alt: #F5F1EB;
+            --color-text: #2C2416;
+            --color-text-secondary: #5C4A35;
+            --color-text-tertiary: #8B6F47;
+            --color-accent: #A0826D;
+            --color-border: #E5DDD1;
+            --color-white: #FFFFFF;
+            --color-highlight: #D4A574;
+            
+            --font-serif: 'EB Garamond', serif;
+            --font-sans: 'Libre Franklin', sans-serif;
+            
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 2rem;
+            --spacing-lg: 4rem;
+            --spacing-xl: 6rem;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 18px;
+        }
+        
+        body {
+            font-family: var(--font-serif);
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-serif);
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        
+        h1 { font-size: 3.5rem; margin-bottom: var(--spacing-md); }
+        h2 { font-size: 2.5rem; margin-bottom: var(--spacing-md); }
+        h3 { font-size: 1.75rem; margin-bottom: var(--spacing-sm); }
+        h4 { font-size: 1.25rem; margin-bottom: var(--spacing-sm); }
+        
+        p {
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        strong {
+            font-weight: 600;
+        }
+        
+        em {
+            font-style: italic;
+        }
+        
+        a {
+            color: var(--color-accent);
+            text-decoration: none;
+            border-bottom: 1px solid var(--color-accent);
+            transition: all 0.2s ease;
+        }
+        
+        a:hover {
+            color: var(--color-highlight);
+            border-bottom-color: var(--color-highlight);
+        }
+        
+        /* Layout */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+        
+        .container-wide {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+        
+        section {
+            padding: var(--spacing-xl) 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+        
+        section:last-of-type {
+            border-bottom: none;
+        }
+        
+        /* Header */
+        .site-header {
+            padding: var(--spacing-xl) 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+        
+        .header-label {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--color-text-tertiary);
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .header-subtitle {
+            font-size: 1.5rem;
+            color: var(--color-text-secondary);
+            font-weight: 400;
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .header-meta {
+            font-family: var(--font-sans);
+            font-size: 0.875rem;
+            color: var(--color-text-tertiary);
+        }
+        
+        /* Fade-in animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Introduction */
+        .intro-text {
+            font-size: 1.15rem;
+            line-height: 1.8;
+        }
+        
+        /* Expandable sections */
+        .expandable {
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .expandable-header {
+            cursor: pointer;
+            padding: var(--spacing-sm) 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: color 0.2s ease;
+            user-select: none;
+        }
+        
+        .expandable-header:hover h3 {
+            color: var(--color-accent);
+        }
+        
+        .expandable-toggle {
+            font-family: var(--font-sans);
+            font-size: 1.5rem;
+            color: var(--color-accent);
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+            margin-left: var(--spacing-sm);
+        }
+        
+        .expandable.open .expandable-toggle {
+            transform: rotate(180deg);
+        }
+        
+        .expandable-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+        
+        .expandable.open .expandable-content {
+            max-height: 2000px;
+        }
+        
+        .expandable-inner {
+            padding: var(--spacing-sm) 0 var(--spacing-md);
+        }
+        
+        /* Lists */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        ul li {
+            padding-left: 1.5rem;
+            margin-bottom: 0.75rem;
+            position: relative;
+        }
+        
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--color-accent);
+            font-weight: bold;
+        }
+        
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding: var(--spacing-md) 0;
+        }
+        
+        .timeline:before {
+            content: '';
+            position: absolute;
+            left: 1rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--color-border);
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 4rem;
+            margin-bottom: 3rem;
+        }
+        
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .timeline-dot {
+            position: absolute;
+            left: 0;
+            top: 0.25rem;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            border: 4px solid var(--color-border);
+            background: var(--color-bg);
+            transition: all 0.3s ease;
+        }
+        
+        .timeline-item.highlight .timeline-dot {
+            background: var(--color-accent);
+            border-color: var(--color-accent);
+            box-shadow: 0 0 0 4px rgba(160, 130, 109, 0.2);
+        }
+        
+        .timeline-item:hover .timeline-dot {
+            transform: scale(1.15);
+        }
+        
+        .timeline-year {
+            font-family: var(--font-sans);
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--color-text-tertiary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .timeline-item.highlight .timeline-year {
+            color: var(--color-accent);
+        }
+        
+        .timeline-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .timeline-desc {
+            color: var(--color-text-secondary);
+        }
+        
+        .timeline-item.highlight .timeline-content {
+            background: var(--color-white);
+            padding: var(--spacing-md);
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        /* Cards */
+        .card {
+            background: var(--color-white);
+            padding: var(--spacing-md);
+            border-radius: 8px;
+            border: 1px solid var(--color-border);
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .card-header {
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .card-label {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--color-accent);
+            margin-bottom: 0.25rem;
+        }
+        
+        .card-section {
+            padding-top: var(--spacing-sm);
+            margin-top: var(--spacing-sm);
+            border-top: 1px solid var(--color-border);
+        }
+        
+        /* Citation cards */
+        .citation-card {
+            background: var(--color-white);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            margin-bottom: var(--spacing-md);
+            transition: all 0.3s ease;
+        }
+        
+        .citation-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        
+        .citation-header {
+            padding: var(--spacing-md);
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .citation-meta {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .citation-year {
+            font-family: var(--font-sans);
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--color-accent);
+            background: var(--color-bg-alt);
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+        }
+        
+        .citation-journal {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            color: var(--color-text-tertiary);
+        }
+        
+        .citation-title {
+            font-size: 1.15rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .citation-authors {
+            font-size: 0.9rem;
+            color: var(--color-text-secondary);
+            font-style: italic;
+        }
+        
+        .citation-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+        
+        .citation-card.open .citation-content {
+            max-height: 1500px;
+        }
+        
+        .citation-inner {
+            padding: 0 var(--spacing-md) var(--spacing-md);
+        }
+        
+        .citation-section {
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .citation-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .citation-section-title {
+            font-weight: 600;
+            color: var(--color-accent);
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--spacing-md);
+            margin: var(--spacing-md) 0;
+        }
+        
+        .grid-item {
+            background: var(--color-white);
+            padding: var(--spacing-md);
+            border-radius: 8px;
+            border: 1px solid var(--color-border);
+        }
+        
+        .grid-item h3 {
+            color: var(--color-accent);
+            font-size: 1.15rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        /* Highlight box */
+        .highlight-box {
+            background: var(--color-bg-alt);
+            padding: var(--spacing-md);
+            border-radius: 8px;
+            border-left: 4px solid var(--color-accent);
+            margin: var(--spacing-md) 0;
+        }
+        
+        /* Section with background */
+        .section-alt {
+            background: var(--color-bg-alt);
+        }
+        
+        /* Footer */
+        .site-footer {
+            padding: var(--spacing-lg) 0;
+            text-align: center;
+            border-top: 1px solid var(--color-border);
+        }
+        
+        .footer-text {
+            font-style: italic;
+            color: var(--color-text-tertiary);
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .footer-meta {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            color: var(--color-text-tertiary);
+        }
+        
+        /* Navigation */
+        .nav {
+            position: sticky;
+            top: 0;
+            background: rgba(250, 248, 245, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--color-border);
+            padding: var(--spacing-sm) 0;
+            z-index: 100;
+            opacity: 0;
+            transform: translateY(-100%);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        
+        .nav.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-title {
+            font-family: var(--font-sans);
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--color-text);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: var(--spacing-md);
+            font-family: var(--font-sans);
+            font-size: 0.875rem;
+        }
+        
+        .nav-links a {
+            border-bottom: none;
+            padding: 0.25rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .nav-links a:hover {
+            border-bottom-color: var(--color-accent);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+            
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            h3 { font-size: 1.5rem; }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline-item {
+                padding-left: 3rem;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+            
+            .nav,
+            .expandable-toggle {
+                display: none;
+            }
+            
+            .expandable-content {
+                max-height: none !important;
+            }
+            
+            .citation-content {
+                max-height: none !important;
+            }
+            
+            section {
+                page-break-inside: avoid;
+            }
+            
+            h1, h2, h3 {
+                page-break-after: avoid;
+            }
+        }
+        
+        /* Schema.org structured data styling */
+        .citation-data {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container-wide">
+            <div class="nav-inner">
+                <div class="nav-title">Dr. James R. Blackburn</div>
+                <div class="nav-links">
+                    <a href="#context">Context</a>
+                    <a href="#dissertation">Dissertation</a>
+                    <a href="#citations">Citations</a>
+                    <a href="#significance">Significance</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="fade-in">
+                <div class="header-label">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    Research Legacy
+                </div>
+                <h1>The Research Legacy of<br>Dr. James R. Blackburn</h1>
+                <p class="header-subtitle">A Documentation of Academic Impact</p>
+                <div class="header-meta">Compiled January 2026</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction -->
+    <section>
+        <div class="container">
+            <div class="fade-in">
+                <p class="intro-text">
+                    This document presents findings from research into the academic legacy of Dr. James R. Blackburn's 1970 
+                    doctoral dissertation, <em>"The Efficacy of Modeled Self-Disclosure on Subject's Response in an Interview Situation,"</em> 
+                    completed at the University of Arkansas, Fayetteville.
+                </p>
+                <p class="intro-text">
+                    What follows is a factual account of how this work contributed to a fundamental shift in psychological 
+                    theory and practice during a critical period in the field's history.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historical Context -->
+    <section id="context">
+        <div class="container">
+            <div class="fade-in">
+                <h2>Historical Context: A Field in Conflict</h2>
+                
+                <!-- The Dominant Paradigm -->
+                <div class="expandable">
+                    <div class="expandable-header">
+                        <h3>The Dominant Paradigm (Pre-1970)</h3>
+                        <span class="expandable-toggle">↓</span>
+                    </div>
+                    <div class="expandable-content">
+                        <div class="expandable-inner">
+                            <p>Throughout the 1950s and 1960s, psychoanalytic theory dominated therapeutic practice. The prevailing orthodoxy, rooted in Freudian principles, prescribed specific therapist behavior:</p>
+                            <ul>
+                                <li><strong>The "Blank Slate" Doctrine:</strong> Therapists were to remain emotionally neutral and opaque</li>
+                                <li><strong>Therapeutic Distance:</strong> Personal disclosure was considered a violation of professional boundaries</li>
+                                <li><strong>Rationale:</strong> This neutrality would allow patients to project their unconscious conflicts onto the therapist (transference)</li>
+                            </ul>
+                            <p style="font-style: italic; margin-top: 1rem;">This wasn't just preference - it was enforced orthodoxy in training programs and clinical supervision.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Emerging Challenge -->
+                <div class="expandable">
+                    <div class="expandable-header">
+                        <h3>The Emerging Challenge (1960s-1970s)</h3>
+                        <span class="expandable-toggle">↓</span>
+                    </div>
+                    <div class="expandable-content">
+                        <div class="expandable-inner">
+                            <p>By the late 1960s, a counter-movement was gaining momentum:</p>
+                            <ul>
+                                <li><strong>Carl Rogers and Abraham Maslow</strong> pioneered humanistic psychology as "the third force" (distinct from psychoanalysis and behaviorism)</li>
+                                <li><strong>Philosophical Argument:</strong> Rogers proposed that therapist genuineness, warmth, and authentic presence were more therapeutic than clinical distance</li>
+                                <li><strong>The Problem:</strong> This remained largely theoretical - empirical evidence was scarce</li>
+                            </ul>
+                            <div class="highlight-box" style="margin-top: 1rem;">
+                                <p style="margin: 0;"><strong>The field needed research. It needed data. It needed someone to test whether therapist transparency actually worked.</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="section-alt">
+        <div class="container">
+            <div class="fade-in">
+                <h2 style="margin-bottom: 1rem;">The Arc of Change</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">1950s-1960s</div>
+                            <h3 class="timeline-title">Freudian Orthodoxy</h3>
+                            <p class="timeline-desc">Therapist as "blank slate" - the dominant paradigm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">1960s</div>
+                            <h3 class="timeline-title">Humanistic Challenge</h3>
+                            <p class="timeline-desc">Rogers & Maslow propose authentic presence</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item highlight">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">1970</div>
+                            <h3 class="timeline-title">Blackburn Dissertation</h3>
+                            <p class="timeline-desc">Empirical evidence for modeled self-disclosure</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">1973-1975</div>
+                            <h3 class="timeline-title">Citations & Influence</h3>
+                            <p class="timeline-desc">Research builds on findings</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">1986</div>
+                            <h3 class="timeline-title">Paradigm Shift</h3>
+                            <p class="timeline-desc">93.3% of psychologists use self-disclosure</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-year">2020s</div>
+                            <h3 class="timeline-title">Current Consensus</h3>
+                            <p class="timeline-desc">Standard practice across therapeutic modalities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Dissertation -->
+    <section id="dissertation">
+        <div class="container">
+            <div class="fade-in">
+                <h2>Dr. Blackburn's Contribution</h2>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h3>The 1970 Dissertation</h3>
+                    </div>
+                    
+                    <div style="margin-bottom: 1rem;">
+                        <div class="card-label">Official Title</div>
+                        <p style="font-style: italic;">"The Efficacy of Modeled Self-Disclosure on Subject's Response in an Interview Situation"</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 1rem;">
+                        <div class="card-label">Core Question</div>
+                        <p>Does a therapist who engages in "modeled self-disclosure" (demonstrating appropriate transparency and sharing relevant personal experiences) elicit more honest, therapeutic responses than one who maintains traditional analytical distance?</p>
+                    </div>
+                    
+                    <div style="margin-bottom: 1rem;">
+                        <div class="card-label">Key Finding</div>
+                        <p>The study demonstrated that modeled self-disclosure significantly decreased client inhibition and increased productive, open communication.</p>
+                    </div>
+                    
+                    <div class="card-section">
+                        <div class="card-label">Significance</div>
+                        <p style="font-size: 1.05rem;">This provided <strong>empirical support</strong> for the humanistic challenge to psychoanalytic orthodoxy at a moment when the field was actively debating these fundamental questions.</p>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h4 style="color: var(--color-accent); margin-bottom: 0.75rem;">Academic Indexing</h4>
+                    <p style="font-size: 0.95rem; margin-bottom: 0.5rem;">
+                        • Indexed in <strong>Dissertation Abstracts International</strong> (Vol. 31, Issue 3, p. 1529-B)<br>
+                        • Catalogued in the <strong>Library of Congress</strong><br>
+                        • University Microfilms No. <strong>70-17176</strong>
+                    </p>
+                    <p style="font-style: italic; font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0;">
+                        This indexing made the research discoverable and accessible to scholars worldwide during the pre-internet era.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citations -->
+    <section id="citations">
+        <div class="container">
+            <div class="fade-in">
+                <h2>Documented Citations and Influence</h2>
+                
+                <!-- Citation 1 -->
+                <div class="citation-card">
+                    <div class="citation-header">
+                        <div class="citation-meta">
+                            <span class="citation-year">1973</span>
+                            <span class="citation-journal">Journal of Counseling Psychology</span>
+                        </div>
+                        <h3 class="citation-title">Teaching Interpersonal Relationship Skills on Campus: A Pyramid Approach</h3>
+                        <p class="citation-authors">Archer, J., & Kagan, N.</p>
+                    </div>
+                    <div class="citation-content">
+                        <div class="citation-inner">
+                            <div class="citation-section">
+                                <div class="citation-section-title">Context & Impact</div>
+                                <p>Used Dr. Blackburn's findings to support the development of training programs that taught counselors to model interpersonal openness. Argued that therapeutic transparency could be taught as a skill.</p>
+                            </div>
+                            <div class="citation-section">
+                                <div class="citation-section-title">Significance</div>
+                                <p>Helped establish that the "human" approach to therapy wasn't just a personality trait but a learnable clinical competency.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Schema.org structured data -->
+                    <div class="citation-data" itemscope itemtype="http://schema.org/ScholarlyArticle">
+                        <meta itemprop="name" content="Teaching Interpersonal Relationship Skills on Campus: A Pyramid Approach">
+                        <meta itemprop="author" content="Archer, J.">
+                        <meta itemprop="author" content="Kagan, N.">
+                        <meta itemprop="datePublished" content="1973">
+                        <div itemprop="publication" itemscope itemtype="http://schema.org/Periodical">
+                            <meta itemprop="name" content="Journal of Counseling Psychology">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Citation 2 -->
+                <div class="citation-card">
+                    <div class="citation-header">
+                        <div class="citation-meta">
+                            <span class="citation-year">1975</span>
+                            <span class="citation-journal">Journal of Consulting and Clinical Psychology</span>
+                        </div>
+                        <h3 class="citation-title">Research on therapeutic timing and modeling duration</h3>
+                        <p class="citation-authors">Multiple researchers</p>
+                    </div>
+                    <div class="citation-content">
+                        <div class="citation-inner">
+                            <div class="citation-section">
+                                <div class="citation-section-title">Context & Impact</div>
+                                <p>Referenced Dr. Blackburn's data to explore questions of therapeutic timing - how much therapist self-disclosure is needed to establish trust, and how the duration of modeling affects client responses.</p>
+                            </div>
+                            <div class="citation-section">
+                                <div class="citation-section-title">Significance</div>
+                                <p>His work became part of the empirical foundation for understanding the mechanics of therapeutic relationship-building.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- From Theory to Practice -->
+    <section class="section-alt">
+        <div class="container">
+            <div class="fade-in">
+                <h2>From Theory to Practice: Texarkana</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8;">
+                    Dr. Blackburn didn't just theorize about therapist transparency - he lived it.
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8;">
+                    After completing his doctorate at the University of Arkansas, Fayetteville, he moved to clinical practice 
+                    in Texarkana. There, he operationalized his research findings, building a therapeutic practice based on 
+                    authentic engagement rather than clinical distance.
+                </p>
+                <div class="highlight-box">
+                    <p style="font-size: 1.05rem; margin: 0;">
+                        <strong>In an era when many therapists still sat silently while patients spoke to the ceiling, Dr. Blackburn was 
+                        practicing a different kind of psychology - one grounded in his own empirical findings about what actually 
+                        helps people heal.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contemporary Significance -->
+    <section id="significance">
+        <div class="container">
+            <div class="fade-in">
+                <h2>Contemporary Significance</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+                    The principles Dr. Blackburn tested in 1970 are now fundamental to modern therapeutic practice:
+                </p>
+                
+                <div class="grid">
+                    <div class="grid-item">
+                        <h3>Therapeutic Alliance</h3>
+                        <p>Now understood as the most significant predictor of therapeutic outcome</p>
+                    </div>
+                    
+                    <div class="grid-item">
+                        <h3>Therapist Genuineness</h3>
+                        <p>One of Carl Rogers's "core conditions," now standard in training</p>
+                    </div>
+                    
+                    <div class="grid-item">
+                        <h3>Trauma-Informed Care</h3>
+                        <p>Explicitly incorporates therapist transparency to counteract power imbalances</p>
+                    </div>
+                    
+                    <div class="grid-item">
+                        <h3>Cultural Competence</h3>
+                        <p>Feminist, multicultural, and LGBTQ-affirmative therapy emphasize appropriate self-disclosure</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-box" style="margin-top: 2rem; font-style: italic;">
+                    <p style="font-size: 1.05rem; margin: 0;">
+                        When a therapist today says "I've experienced something similar" or "I can see why that would be difficult" - 
+                        that's the lineage. That's the permission Dr. Blackburn's generation of researchers established through 
+                        empirical work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Note -->
+    <section class="section-alt">
+        <div class="container">
+            <div class="fade-in">
+                <h2>A Personal Note on Discovery</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8;">
+                    This research was compiled while preparing for LifeBook memoir interviews. The goal was to understand 
+                    Dr. Blackburn's academic background and read his dissertation.
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8;">
+                    What emerged was the discovery that his work sits at a crucial hinge point in psychology's history - 
+                    when the field was actively shifting from one paradigm to another, when empirical evidence was needed 
+                    to challenge established orthodoxy, when someone had to actually test whether a more human approach 
+                    to therapy would work.
+                </p>
+                <p style="font-size: 1.25rem; font-weight: 600; margin-top: 2rem; line-height: 1.6;">
+                    He tested it. It worked. The field changed.
+                </p>
+                <p style="font-size: 1.25rem; font-weight: 600; color: var(--color-accent); margin-top: 1rem;">
+                    That's not a small contribution. That's foundational.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-text">This document is offered with respect and gratitude for a career spent helping people heal.</p>
+            <p class="footer-meta">January 2026</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Fade-in on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Expandable sections
+        document.querySelectorAll('.expandable-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const expandable = header.parentElement;
+                expandable.classList.toggle('open');
+            });
+        });
+        
+        // Citation cards
+        document.querySelectorAll('.citation-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const card = header.parentElement;
+                card.classList.toggle('open');
+            });
+        });
+        
+        // Sticky nav
+        const nav = document.getElementById('nav');
+        const header = document.querySelector('.site-header');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > header.offsetHeight) {
+                nav.classList.add('visible');
+            } else {
+                nav.classList.remove('visible');
+            }
+        });
+        
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
